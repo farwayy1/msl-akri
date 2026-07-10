@@ -343,3 +343,38 @@ font-weight:bold;
 color:#7fb8ff;
 font-size:14px;
 }
+/* ===== MAIN BUTTON ===== */
+
+.btn-main{
+
+display:inline-block;
+
+margin-top:10px;
+
+padding:15px 35px;
+
+background:#00c853;
+
+color:white;
+
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:10px;
+
+transition:.3s;
+
+box-shadow:0 0 20px rgba(0,200,83,.35);
+
+}
+
+.btn-main:hover{
+
+background:#00e676;
+
+transform:scale(1.08);
+
+box-shadow:0 0 30px #00e676;
+
+}
