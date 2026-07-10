@@ -378,3 +378,56 @@ transform:scale(1.08);
 box-shadow:0 0 30px #00e676;
 
 }
+/* ===== NAVBAR ===== */
+
+nav a{
+
+position:relative;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#00e676;
+
+}
+
+nav a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:-6px;
+
+width:0;
+
+height:3px;
+
+background:#00e676;
+
+transition:.3s;
+
+}
+
+nav a:hover::after{
+
+width:100%;
+
+}
+
+nav a.active{
+
+color:#00e676;
+
+}
+
+nav a.active::after{
+
+width:100%;
+
+}
