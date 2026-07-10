@@ -208,3 +208,86 @@ text-align:center;
 color:#999;
 
 }
+/* ===== SEASON INFORMATION ===== */
+
+.season-info{
+
+padding:70px 20px;
+
+text-align:center;
+
+}
+
+.season-info h2{
+
+font-size:36px;
+
+margin-bottom:40px;
+
+letter-spacing:2px;
+
+}
+
+.info-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+.info-card{
+
+background:#102847;
+
+border:2px solid #00ff88;
+
+border-radius:18px;
+
+width:260px;
+
+padding:35px 25px;
+
+transition:.3s;
+
+box-shadow:0 0 20px rgba(0,255,136,.15);
+
+}
+
+.info-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 30px rgba(0,255,136,.45);
+
+}
+
+.icon{
+
+font-size:55px;
+
+margin-bottom:18px;
+
+}
+
+.info-card h3{
+
+font-size:24px;
+
+margin-bottom:12px;
+
+}
+
+.info-card p{
+
+font-size:18px;
+
+color:#d8d8d8;
+
+line-height:1.7;
+
+}
